@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: cyan;
+}
+body {
+  background: black;
+}
+h1 {
+  text-align: center;
+}
+table{
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+table,
+th,
+td {
+  border: 1px solid cyan;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: calc(1vw + 1vh);
+}
